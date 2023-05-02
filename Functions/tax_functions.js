@@ -1,17 +1,18 @@
-// function displaygetSocSecTax(x){
-//     let sectax = x * 0.0062;
-//     return sectax;
+function displaygetSocSecTax(x){
+    let sectax = x * 0.0062;
+    return sectax;
     
-// } 
-// let sectax = displaygetSocSecTax(1000);
-// console.log(sectax);
+} 
+let sectax = displaygetSocSecTax(1000);
+console.log(sectax);
 
-// function displaygetMedicareTax(x){
-//     let meditax = x * 0.0145;
-//     return meditax
-// }
-// let meditax = displaygetMedicareTax(4000)
-// console.log(meditax)
+function displaygetMedicareTax(x){
+    let meditax = x * 0.0145;
+    return meditax
+ }
+ 
+let meditax = displaygetMedicareTax(4000)
+ console.log(meditax)
 
 
 function getFederalTax(gross, code){
