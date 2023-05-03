@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type = "button" id="button" value="button"></input>
+    <input type ="date" id ="date"></input>
+    <p id="result">Results</p>
+    <script>
+        const button = document.getElementById("button")
+        const date = document.getElementById("date");
+        const result = document.getElementById("result")
+        button.addEventListener("click", ()=> {
+            const text = date.value;
+            let d = new Date(text);
+            let output = d.toString();
+            result.innerHTML = output;
+           
+        })
+    
+    </script>
+
+
+</body>
+</html>
